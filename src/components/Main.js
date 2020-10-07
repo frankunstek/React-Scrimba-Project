@@ -20,6 +20,8 @@ import IncrementDecrement from './IncrementDecrement/IncrementDecrement'
 import Messages from './Messages/Messages'
 // Messages without && operator
 import Messages2 from './Messages/Messages2'
+// Log in and out with changing text and button
+import LoginLogout from './Login/LoginLogout'
 
 class Main extends React.Component {
     render() {
@@ -112,6 +114,14 @@ class Main extends React.Component {
                 <div>
                     <h2><u>Messages2</u></h2>
                     <Messages2 />
+                </div>
+
+                <hr />
+
+                {/* LoginLogout */}
+                <div>
+                    <h2><u>LoginLogout</u></h2>
+                    <LoginLogout />
                 </div>
 
             </div>
