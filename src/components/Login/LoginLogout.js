@@ -11,21 +11,15 @@ class LoginLogout extends React.Component {
     }
 
     handleClick() {
-        if (this.state.isLoggedIn) {
-            this.setState({isLoggedIn: false})
-        } else {
-            this.setState({isLoggedIn: true})
-        }
+        this.setState(prevState => {
+            return {
+                isLoggedIn: !prevState.isLoggedIn
+            }
+        })
     }
 
     render() {
-        let btnStatus
-
-        if (this.state.isLoggedIn) {
-            btnStatus = "out"
-        } else {
-            btnStatus = "in"
-        }
+        let btnStatus = this.state.isLoggedIn ? "out" : "in"
 
         return (
             <div>
