@@ -22,6 +22,8 @@ import Messages from './Messages/Messages'
 import Messages2 from './Messages/Messages2'
 // Log in and out with changing text and button
 import LoginLogout from './Login/LoginLogout'
+// Fetching api data and displaying it (Star Wars)
+import SWapi from './StarWars/SWapi'
 
 class Main extends React.Component {
     render() {
@@ -122,6 +124,14 @@ class Main extends React.Component {
                 <div>
                     <h2><u>LoginLogout</u></h2>
                     <LoginLogout />
+                </div>
+
+                <hr />
+
+                {/* Star Wars api */}
+                <div>
+                    <h2><u>Star Wats API</u></h2>
+                    <SWapi />
                 </div>
 
             </div>
