@@ -3,27 +3,29 @@
 import React from 'react'
 
 // Todo List Project
-import TodoMain from './Todo/TodoMain'
+import TodoMain from './todo/TodoMain'
 // Contact Cards Project
-import ContactCard from './ContactCard/ContactCard'
+import ContactCard from './contactCard/ContactCard'
 // Joke Project
-import Joke from './Jokes-Project/Joke'
-import jokesData from './Jokes-Project/jokesData'
+import Joke from './jokes-Project/Joke'
+import jokesData from './jokes-Project/jokesData'
 // Products Project
-import Product from './Product-Project/Product'
-import productData from './Product-Project/productData'
+import Product from './product-Project/Product'
+import productData from './product-Project/productData'
 // State lesson 1 (logged in/out)
 import StateApp1 from './state/State1'
 // Changing State with increment and decrement counter
-import IncrementDecrement from './IncrementDecrement/IncrementDecrement'
+import IncrementDecrement from './incrementDecrement/IncrementDecrement'
 // Conditional with && operator
-import Messages from './Messages/Messages'
+import Messages from './messages/Messages'
 // Messages without && operator
-import Messages2 from './Messages/Messages2'
+import Messages2 from './messages/Messages2'
 // Log in and out with changing text and button
-import LoginLogout from './Login/LoginLogout'
+import LoginLogout from './login/LoginLogout'
 // Fetching api data and displaying it (Star Wars)
-import SWapi from './StarWars/SWapi'
+import SWapi from './starWars/SWapi'
+// Forms in React
+import Form from './forms/Form'
 
 class Main extends React.Component {
     render() {
@@ -132,6 +134,14 @@ class Main extends React.Component {
                 <div>
                     <h2><u>Star Wats API</u></h2>
                     <SWapi />
+                </div>
+
+                <hr />
+
+                {/* Form */}
+                <div>
+                    <h2><u>Form</u></h2>
+                    <Form />
                 </div>
 
             </div>
