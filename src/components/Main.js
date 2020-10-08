@@ -144,6 +144,7 @@ class Main extends React.Component {
                     <Form />
                 </div>
 
+                <hr/>
             </div>
         )
     }
