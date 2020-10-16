@@ -26,6 +26,8 @@ import LoginLogout from './login/LoginLogout'
 import SWapi from './starWars/SWapi'
 // Forms in React
 import Form from './forms/Form'
+// Meme Generator
+import MemeGenerator from './memeGenerator/MemeGenerator'
 
 class Main extends React.Component {
     render() {
@@ -142,6 +144,14 @@ class Main extends React.Component {
                 <div>
                     <h2><u>Form</u></h2>
                     <Form />
+                </div>
+
+                <hr />
+
+                {/* Meme Generator */}
+                <div>
+                    <h2><u>Meme Generator</u></h2>
+                    <MemeGenerator />
                 </div>
 
                 <hr/>
